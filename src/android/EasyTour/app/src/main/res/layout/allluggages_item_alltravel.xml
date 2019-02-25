@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageview_001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/allluggageback"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/gotodest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="去到杭州市"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/tv_item_allluggages_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

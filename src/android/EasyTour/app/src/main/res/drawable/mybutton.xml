@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 边框颜色值-->
+    <item>
+        <shape>
+            <!--圆角 -->
+            <corners android:radius="90dp"></corners>
+            <!--边框颜色-->
+            <solid android:color="@color/primary_50"></solid>
+        </shape>
+    </item>
+    <!-- 主题背景颜色值-->
+    <item android:bottom="1dp" android:right="1dp" android:top="1dp" android:left="1dp"><!--设置四个边框（根据需要选择对应边框）-->
+        <shape>
+            <!--与底层的垂直距离（阴影的效果）-->
+            <gradient android:centerX="0.5" android:centerY="0.5"
+                android:angle="180" android:endColor="@color/primary_30" android:startColor="@color/primary_50"/>
+            <padding android:left="40dp" android:top="2dp" android:right="40dp" android:bottom="2dp" />
+            <!-- 圆角 -->
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+</layer-list>
